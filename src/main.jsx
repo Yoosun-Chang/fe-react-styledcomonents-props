@@ -22,13 +22,7 @@ const Main = () => {
       <Box boxColor = "green" text="초록"/>
       <Box boxColor = "pink" text="분홍"/>
 
-      <Circle circleColor = "pink"/>
-      <Circle circleColor = "red"/>
-      <Circle circleColor = "black"/>
-      <Circle circleColor = "gray"/>
-      <Circle circleColor = "green"/>
-      <Circle circleColor = "blue"/>
-      <Circle circleColor = "orange"/>
+      {circleColorArr.map(color => <Circle circleColor={color} />)}
 
       <br></br>
 
